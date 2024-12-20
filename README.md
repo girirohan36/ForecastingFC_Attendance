@@ -7,16 +7,16 @@ This project focuses on predicting game attendance for **Houston Dynamo FC** by 
 
 ![image](https://github.com/user-attachments/assets/ab01cf8e-8bbb-4ee0-b99d-c2ed3efb9034)
 
+## Workflow : 
+![image](https://github.com/user-attachments/assets/efbe09cb-b258-488a-b345-7d5727c41d51)
+
 
 ## Data Collection and Processing
 
 - **Data Collection**: Data was collected from the Houston Dynamo FC website using **Selenium** and **BeautifulSoup** for web scraping, extracting game information such as dates, opponents, and attendance. Weather data was gathered using APIs to enrich the dataset with temperature and rain conditions.
 - **Data Processing**: The data was cleaned, imputed for missing values, and transformed into a time-series format for analysis.
 
-  
-
-## Workflow : 
-![image](https://github.com/user-attachments/assets/efbe09cb-b258-488a-b345-7d5727c41d51)
+  ![image](https://github.com/user-attachments/assets/22e9d01d-c8dc-4a57-ba91-d254d26397dd)
 
 
 ## Exploratory Data Analysis (EDA)
@@ -25,7 +25,6 @@ This project focuses on predicting game attendance for **Houston Dynamo FC** by 
 - **Key Insights**:
   - **Weekend Effect**: Attendance was higher on Saturdays and Sundays.
   - **Opponent Impact**: Higher attendance against teams like Cincinnati and lower against teams like San Antonio.
-
 
 
 ## Forecasting Models
